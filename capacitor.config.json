@@ -1,0 +1,10 @@
+{
+  "appId": "com.songvlog.ai",
+  "appName": "曲影AI",
+  "webDir": "dist",
+  "ios": { "contentInset": "automatic" },
+  "android": { "allowMixedContent": true },
+  "plugins": {
+    "StatusBar": { "style": "DARK", "backgroundColor": "#0a0812" }
+  }
+}
