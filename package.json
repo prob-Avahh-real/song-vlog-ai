@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview --host 0.0.0.0 --port 8888",
-    "test": "python3 scripts/generate-test-audio.py && npx tsx scripts/test-core.ts",
+    "test": "python3 scripts/generate-test-audio.py && npm run build && npx tsx scripts/test-core.ts",
     "test:e2e": "npm run build && cp -r test-fixtures dist/ && npm run preview",
     "cap:sync": "npm run build && npx cap sync",
     "cap:ios": "npm run build && npx cap sync ios && npx cap open ios",

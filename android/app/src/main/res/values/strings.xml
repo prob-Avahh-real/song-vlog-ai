@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">曲影AI</string>
+    <string name="title_activity_main">曲影AI</string>
+    <string name="package_name">com.songvlog.ai</string>
+    <string name="custom_url_scheme">com.songvlog.ai</string>
+</resources>
